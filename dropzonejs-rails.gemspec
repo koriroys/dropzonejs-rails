@@ -16,5 +16,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'octokit', '~> 1.0'
   s.add_development_dependency 'faraday', '~> 0.8.0'
 
-  s.add_dependency 'rails', '> 3.1'
+  s.add_dependency 'rails', '> 3.1', '<= 5.0.0.beta3'
 end
